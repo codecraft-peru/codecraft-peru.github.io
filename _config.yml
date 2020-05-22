@@ -1,14 +1,24 @@
-# Site settings
-title: Codecraft-Peru
-email: hi@codecraft-peru.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://codecraft-peru.github.io" # the base hostname & protocol for your site
-twitter_username: codecraft-peru
-github_username:  codecraft-peru
+title:              Software Crafters Peru
+email:              hi@codecraft-peru.com
+description:        
+author:             Software Crafters Peru
+baseurl:            
+url:                "https://codecraft-peru.github.io/"
+
+# Social Profiles
+twitter_username:   
+github_username:    codecraft-peru
+facebook_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
-markdown: kramdown
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
