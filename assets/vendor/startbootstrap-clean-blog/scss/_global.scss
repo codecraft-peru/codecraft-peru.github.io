@@ -29,6 +29,7 @@ a {
   &:focus,
   &:hover {
     color: $primary;
+    text-decoration: underline;
   }
 }
 
@@ -74,4 +75,10 @@ img::selection {
 img::-moz-selection {
   color: $white;
   background: transparent;
+}
+
+.link{
+  font-weight: bold;
+  // font-style: italic;
+  text-decoration: none;
 }
